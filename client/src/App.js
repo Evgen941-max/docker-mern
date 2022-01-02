@@ -31,6 +31,7 @@ function App() {
         <h3>Docker MERN</h3>
       </nav>
       <div className="container with-nav">
+        <h1>Test</h1>
         <Form onCreate={createNote} />
         <List list={notes} />
       </div>
