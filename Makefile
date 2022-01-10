@@ -21,3 +21,13 @@ build:
 
 down:
 	docker-compose down
+
+#
+
+SSH_STRING:=root@5.101.51.199
+
+ssh:
+	ssh ${SSH_STRING}
+
+copy-files:
+	scp -r ./* ssh ${SSH_STRING}:/root/app

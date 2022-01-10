@@ -4,7 +4,7 @@ import {List} from './List'
 import {Form} from './Form'
 
 const baseURL = process.env.NODE_ENV === 'production' 
-  ? 'http://localhost:5000'
+  ? 'http://5.101.51.199:5000'
   : 'http://localhost:5000'
 
 const api = axios.create({ baseURL })
@@ -32,7 +32,7 @@ function App() {
         <h3>Docker MERN</h3>
       </nav>
       <div className="container with-nav">
-        <h1>Test_TEST</h1>
+        <h1>Docker Mern Application</h1>
         <Form onCreate={createNote} />
         <List list={notes} />
       </div>
