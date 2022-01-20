@@ -4,7 +4,7 @@ import {List} from './List'
 import {Form} from './Form'
 
 const baseURL = process.env.NODE_ENV === 'production' 
-  ? 'http://5.101.51.199:5000'
+  ? 'http://80.249.145.13:5000'
   : 'http://localhost:5000'
 
 const api = axios.create({ baseURL })

@@ -24,7 +24,7 @@ down:
 
 #
 
-SSH_STRING:=root@80.249.145.13
+SSH_STRING:=root@5.101.51.199
 
 ssh:
 	ssh ${SSH_STRING}
